@@ -1,5 +1,5 @@
 module.exports = {
-    parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
     parserOptions: {
       sourceType: 'module',
       ecmaVersion: 2019,
@@ -18,9 +18,7 @@ module.exports = {
       'plugin:react/recommended',
       'plugin:react-hooks/recommended',
       'plugin:prettier/recommended',
-      'prettier/react',
-      'prettier/standard',
-      'prettier/babel',
+      'prettier',
       'plugin:import/errors',
       'plugin:import/warnings',
     ],
