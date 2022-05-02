@@ -42,7 +42,7 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "echo \"[Husky] pre-commit\"",
       "pre-push": "yarn lint"
     }
   }

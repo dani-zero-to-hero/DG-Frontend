@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "pre-commit": "lint-staged",
+    "pre-commit": "echo \"[Husky] pre-commit 2\"",
     "pre-push": "yarn lint"
   }
 }
